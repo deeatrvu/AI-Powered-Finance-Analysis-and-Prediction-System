@@ -17,12 +17,12 @@ and add the following template:
 # Configuration Template
 # ==========================
 
-# API Keys (use your own keys)
+ API Keys (use your own keys)
 api_keys:
   newsapi: "YOUR_NEWSAPI_KEY_HERE"
   # openai: "YOUR_OPENAI_KEY_HERE"
 
-# News Collection Settings
+ News Collection Settings
 news:
   sources:
     - "bloomberg"
@@ -33,7 +33,7 @@ news:
   max_articles: 100
   fallback_sources: true        # Use alternative sources if primary fails
 
-# Market Data Settings
+ Market Data Settings
 market:
   symbols:
     - "AAPL"
@@ -45,13 +45,13 @@ market:
   period: "1y"
   data_validation: true
 
-# LLM Settings
+LLM Settings
 llm:
   model: "gpt-3.5-turbo"
   temperature: 0.7
   max_tokens: 500
 
-# ML Model Settings
+ ML Model Settings
 models:
   sentiment:
     threshold: 0.6
@@ -70,7 +70,7 @@ models:
       handle_nan: "drop"        # Options: drop, fill, interpolate
       fill_method: "ffill"      # Forward fill for missing values
 
-# App Settings
+App Settings
 app:
   debug: true
   port: 8501
