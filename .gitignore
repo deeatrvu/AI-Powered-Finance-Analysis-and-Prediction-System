@@ -1,0 +1,13 @@
+# Bytecode
+__pycache__/
+*.pyc
+
+# Model files
+*.pth
+*.pkl
+
+# Text notes (optional)
+*.txt
+
+# Local config / API keys
+config.yaml   # <— VERY IMPORTANT
